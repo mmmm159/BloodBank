@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 2dp Shadow -->
+    <item>
+        <shape  android:shape="rectangle">
+
+            <solid android:color="@color/android_default_grey" />
+            <corners android:radius="50dp" />
+
+        </shape>
+    </item>
+
+    <!-- White Top color -->
+    <item android:bottom="8dp">
+
+        <shape  android:shape="rectangle">
+
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="50dp" />
+
+
+        </shape>
+
+    </item>
+</layer-list>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remember_me_login_fragment">Remember me</string>
+    <string name="did_you_forget_password">Did you forget password ?</string>
+    <string name="login_fragment_dont_have_an_acc">You don\'t have an account ? Register Here.</string>
+    <string name="login_fragment_enter">Enter</string>
+    <string name="login_fragment_did_you_forget_password">Did you forget password ?</string>
+    <string name="login_fragment_phone">Phone</string>
+    <string name="login_fragment_password">Password</string>
+    <string name="login_fragment_remeber_me">Remember me</string>
+    <string name="register_fragment_create_new_account">Create New Account</string>
+    <string name="register_fragment_register_btn">Register</string>
+    <string name="register_fragment_edt_txt_email">E-mail</string>
+    <string name="register_fragment_edt_txt_birth_date">Birth Date</string>
+    <string name="register_fragment_edt_txt_last_donation_date">Last Donation Date</string>
+    <string name="register_fragment_edt_txt_phone">Phone</string>
+    <string name="register_fragment_edt_txt_password">Password</string>
+    <string name="register_fragment_edt_txt_confirm_password">Confirm Password</string>
+    <string name="forget_password_step1_fragment_btn_send">Send</string>
+
+    <string name="forget_password_step2_fragment_btn_change">Change</string>
+    <string name="forget_password_step2_fragment_btn_confirm_new_password">Confirm New Password</string>
+    <string name="forget_password_step2_fragment_btn_new_password">New Password</string>
+    <string name="forget_password_step2_fragment_btn_verification_code">Verification Code</string>
+    <string name="slider_layout_1_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="slider_layout_2_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home_activity_title_home">Home</string>
+    <string name="home_activity_title_modify_data">Modify data</string>
+    <string name="home_activity_title_notifications">Notifications</string>
+    <string name="home_activity_title_more">More</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="fragment_home_donation_orders">Donation Requests</string>
+    <string name="fragment_home_articles">Articles</string>
+    <string name="fragment_article_home_enter_word_here">Enter the Search Word Here</string>
+    <string-array name="fragment_register_blood_type_spinner">
+        <item>Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="fragment_register_governates_spinner">
+        <item>Governate</item>
+        <item>gharbia</item>
+        <item>dakahlia</item>
+        <item>Cairo</item>
+        <item>sharqia</item>
+        <item>menofia</item>
+    </string-array>
+    <string-array name="fragment_register_city_spinner">
+        <item>City</item>
+        <item>Alexandria</item>
+        <item>Cairo</item>
+        <item>Tanta</item>
+        <item>Giza</item>
+        <item>Benha</item>
+    </string-array>
+    <string name="register_fragment_edt_txt_name">Name</string>
+    <string name="profile_fragment_btn_modify">Modify</string>
+    <string name="profile_fragment_txt_view_modify_data">Modify Data</string>
+    <string name="register_fragment_spinner_gov_Default">Choose Governorate</string>
+    <string name="register_fragment_spinner_blood_type_Default">Blood Type</string>
+    <string name="register_fragment_spinner_city_Default">City</string>
+    <string name="notification_home_fragment_txt_view_notifications">Notifications</string>
+    <string name="item_notification_txt_view_title_fragment_notification">Request Notification</string>
+    <string name="fragment_home_articles_spinner_articles_default">Choose</string>
+    <string name="donation_form_fragment_txt_view_donation_request">Donation Request</string>
+    <string name="donation_form_fragment_edt_txt_name_hint">Name</string>
+    <string name="donation_form_fragment_edt_txt_age_hint">Age</string>
+    <string name="donation_form_fragment_edt_txt_num_blood_bags_hint">Number of Blood Bags</string>
+    <string name="donation_form_fragment_edt_txt_hospital_location_hint">Hospital Location</string>
+    <string name="donation_form_fragment_edt_txt_phone_hint">Phone</string>
+    <string name="donation_form_fragment_edt_txt_notes_hint">Side Notes</string>
+    <string name="donation_form_fragment_btn_send">Send</string>
+    <string name="more_fragment_txt_view_more">More</string>
+    <string name="more_fragment_txt_view_favourites">Favourites</string>
+    <string name="more_fragment_txt_view_contact_us">Contact Us</string>
+    <string name="more_fragment_txt_view_about">About</string>
+    <string name="more_fragment_txt_view_rate_app">Rate App</string>
+    <string name="more_fragment_txt_view_notification_settings">Notification Settings</string>
+    <string name="more_fragment_txt_view_logout">Logout</string>
+    <string name="more_fragment_edt_txt_message_head_hint">Message Title</string>
+    <string name="more_fragment_edt_txt_message_hint">Message</string>
+    <string name="item_donation_txt_view_patient_name">Patient Name : </string>
+    <string name="item_donation_txt_view_hospital">Hospital : </string>
+    <string name="item_donation_txt_view_city">City :</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_activity_top_txt_view">Select Location</string>
+    <string name="map_activity_btn_set_location">Set Location</string>
+    <string name="activity_map_you_are_here">You are Here.!</string>
+    <string name="donation_form_fragment_txt_view_name">Name :</string>
+    <string name="donation_form_fragment_txt_view_age">Age :</string>
+    <string name="donation_form_fragment_txt_view_blood_type">Blood Type :</string>
+    <string name="donation_form_fragment_txt_view_number_needed_bags">Number of needed bags</string>
+    <string name="donation_form_fragment_txt_view_hospital">Hospital :</string>
+    <string name="donation_form_fragment_txt_view_address">Address :</string>
+    <string name="donation_form_fragment_txt_view_phone">Phone</string>
+    <string name="donation_form_details_fragment_btn_call">Call</string>
+    <string name="fragment_notification_setting_more_txt_view_notification_settings">Notification Settings</string>
+    <string name="fragment_notification_setting_more_txt_view_explain">Please Select the governorates and blood types you want to be notified of theirdonation via notifications</string>
+    <string name="fragment_notification_setting_more_btn_blood_types">Blood Types</string>
+    <string name="fragment_notification_setting_more_btn_governorates">Governorates</string>
+    <string name="fragment_notification_setting_more_btn_save">Save</string>
+
+</resources>

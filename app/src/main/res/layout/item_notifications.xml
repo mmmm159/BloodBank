@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/item_notification_fragment_linear_background"
+    android:layout_height="70dp"
+    >
+    <ImageView
+        android:id="@+id/item_notification_img_fragment_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"/>
+    <TextView
+        android:id="@+id/item_notification_txt_view_title_fragment_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:text="@string/item_notification_txt_view_title_fragment_notification"/>
+
+
+    <ImageView
+        android:id="@+id/item_notification_img_time_fragment_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_access_time_black_24dp"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/item_notification_txt_view_day_fragment_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/orange"
+        android:text="sunday"/>
+    <TextView
+        android:id="@+id/item_notification_txt_view_date_fragment_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/orange"
+        android:text="30/9/2019"/>
+
+
+
+</LinearLayout>

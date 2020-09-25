@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/fragment_notification_setting_more_txt_view_notification_settings"
+        style="@style/txt_view_top_fragment"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/fragment_notification_setting_more_txt_view_notification_settings" />
+<TextView
+    android:id="@+id/fragment_notification_setting_more_txt_view_explain"
+    android:text="@string/fragment_notification_setting_more_txt_view_explain"
+    android:layout_marginStart="@dimen/dim_contact_us_views_padding"
+    android:layout_marginEnd="@dimen/dim_contact_us_views_padding"
+    app:layout_constraintTop_toBottomOf="@id/fragment_notification_setting_more_txt_view_notification_settings"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/red"
+    android:textSize="22sp"
+    android:background="@drawable/user_cycle_views_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fragment_notification_setting_more_btn_blood_types"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/fragment_notification_setting_more_txt_view_explain"
+        android:text="@string/fragment_notification_setting_more_btn_blood_types"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_remove_white_24dp"
+        android:drawablePadding="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/fragment_notification_setting_btn_background"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/dim_contact_us_views_padding"
+        android:layout_marginEnd="@dimen/dim_contact_us_views_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_35dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_notification_setting_more_recycler_blood_types"
+        android:layout_marginStart="@dimen/dim_contact_us_views_padding"
+        android:layout_marginEnd="@dimen/dim_contact_us_views_padding"
+        app:layout_constraintTop_toBottomOf="@id/fragment_notification_setting_more_btn_blood_types"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+
+        android:background="@drawable/user_cycle_views_background"
+        android:visibility="visible"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/fragment_notification_setting_more_btn_governorates"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/fragment_notification_setting_more_recycler_blood_types"
+        android:text="@string/fragment_notification_setting_more_btn_governorates"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_remove_white_24dp"
+        android:drawablePadding="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/fragment_notification_setting_btn_background"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/dim_contact_us_views_padding"
+        android:layout_marginEnd="@dimen/dim_contact_us_views_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_35dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_notification_setting_more_recycler_governorates"
+        android:layout_marginStart="@dimen/dim_contact_us_views_padding"
+        android:layout_marginEnd="@dimen/dim_contact_us_views_padding"
+        app:layout_constraintTop_toBottomOf="@id/fragment_notification_setting_more_btn_governorates"
+        android:layout_width="match_parent"
+
+        android:background="@drawable/user_cycle_views_background"
+
+        android:padding="10dp"
+        android:visibility="visible"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/fragment_notification_setting_more_btn_save"
+app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/fragment_notification_setting_more_btn_save"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fragment_notification_setting_btn_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_35dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

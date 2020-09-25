@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.usercycle.RegisterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <TextView
+                android:id="@+id/register_fragment_txt_view_create_new_acc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="16sp"
+                android:text="@string/register_fragment_create_new_account"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/guideline"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_name"
+
+                />
+            <EditText
+                android:id="@+id/register_fragment_edt_txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:hint="@string/register_fragment_edt_txt_name"
+                android:drawableStart="@drawable/name_icon"
+
+                android:drawablePadding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/guideline"
+                style="@style/login_fragment_edt_txt"/>
+
+
+            <EditText
+                android:id="@+id/register_fragment_edt_txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:drawableStart="@drawable/register_fragment_icon_mail"
+                android:drawablePadding="5dp"
+                android:hint="@string/register_fragment_edt_txt_email"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_txt_view_birth_date"
+
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_name"
+                style="@style/login_fragment_edt_txt"/>
+            <TextView
+                android:id="@+id/register_fragment_txt_view_birth_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:paddingTop="8dp"
+                android:drawableStart="@drawable/calender_icon"
+                android:drawablePadding="5dp"
+                android:text="@string/register_fragment_edt_txt_birth_date"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_spinner_blood_type"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_email"
+                style="@style/login_fragment_edt_txt"/>
+
+            <Spinner
+                android:id="@+id/register_fragment_spinner_blood_type"
+                style="@style/login_fragment_edt_txt"
+                android:layout_width="match_parent"
+
+                android:paddingEnd="30dp"
+
+                android:layout_height="@dimen/dim_45dp"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_txt_view_last_donation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_txt_view_birth_date" />
+
+            <TextView
+                android:id="@+id/register_fragment_txt_view_last_donation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:text="@string/register_fragment_edt_txt_last_donation_date"
+                android:paddingTop="6dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/calender_icon"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_spinner_governorate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_spinner_blood_type"
+                style="@style/login_fragment_edt_txt"/>
+            <Spinner
+
+                android:paddingEnd="30dp"
+                android:id="@+id/register_fragment_spinner_governorate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_spinner_city"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_txt_view_last_donation"
+                style="@style/login_fragment_edt_txt"/>
+
+            <Spinner
+                android:id="@+id/register_fragment_spinner_city"
+                style="@style/login_fragment_edt_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:paddingEnd="30dp"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_edt_txt_phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_spinner_governorate" />
+
+            <EditText
+                android:id="@+id/register_fragment_edt_txt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:hint="@string/register_fragment_edt_txt_phone"
+                android:drawableStart="@drawable/register_fragment_icon_phone"
+                android:drawablePadding="5dp"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_edt_txt_password"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_spinner_city"
+                style="@style/login_fragment_edt_txt"/>
+
+            <EditText
+                android:id="@+id/register_fragment_edt_txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:hint="@string/register_fragment_edt_txt_password"
+                android:drawableStart="@drawable/password_icon"
+                android:drawablePadding="5dp"
+                app:layout_constraintBottom_toTopOf="@id/register_fragment_edt_txt_password_confirm"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_phone"
+                style="@style/login_fragment_edt_txt"/>
+
+            <EditText
+                android:id="@+id/register_fragment_edt_txt_password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:drawableStart="@drawable/password_icon"
+                android:drawablePadding="5dp"
+                android:hint="@string/register_fragment_edt_txt_confirm_password"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_password"
+                app:layout_constraintBottom_toTopOf="@id/guideline2"
+                style="@style/login_fragment_edt_txt"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.88"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/register_fragment_edt_txt_password_confirm"
+
+                />
+            <Button
+                android:id="@+id/register_fragment_btn_register"
+                style="@style/user_cycle_button"
+                android:textColor="@color/red"
+                android:text="@string/register_fragment_register_btn"
+                app:layout_constraintVertical_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/guideline2"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+            <ImageView
+                android:id="@+id/register_fragment_spinner_drop_down_blood_type_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spinner_drop_icon"
+                android:layout_marginEnd ="10dp"
+                app:layout_constraintEnd_toEndOf="@id/register_fragment_spinner_blood_type"        app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_blood_type"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_blood_type"/>
+            <ImageView
+                android:id="@+id/register_fragment_spinner_drop_down_governorate_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spinner_drop_icon"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="@id/register_fragment_spinner_governorate"        app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_governorate"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_governorate"/>
+            <ImageView
+                android:id="@+id/register_fragment_spinner_drop_down_city_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spinner_drop_icon"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="@id/register_fragment_spinner_city"
+                app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_city"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_city"/>
+
+            <ImageView
+                android:id="@+id/register_fragment_spinner_blood_type_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="7dp"
+                app:layout_constraintStart_toStartOf="@id/register_fragment_spinner_blood_type"
+                app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_blood_type"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_blood_type"
+                android:src="@drawable/blood_type"/>
+            <ImageView
+                android:id="@+id/register_fragment_spinner_governate_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="7dp"
+                app:layout_constraintStart_toStartOf="@id/register_fragment_spinner_governorate"
+                app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_governorate"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_governorate"
+                android:src="@drawable/home_icon"/>
+
+            <ImageView
+                android:id="@+id/register_fragment_spinner_city_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="7dp"
+                app:layout_constraintStart_toStartOf="@id/register_fragment_spinner_city"
+                app:layout_constraintTop_toTopOf="@id/register_fragment_spinner_city"
+                app:layout_constraintBottom_toBottomOf="@id/register_fragment_spinner_city"
+                android:src="@drawable/home_icon"/>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

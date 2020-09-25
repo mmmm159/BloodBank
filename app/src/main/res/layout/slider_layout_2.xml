@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/slider_layout_2_img_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_slider2_vector"
+
+
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/slider_layout_2_guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/slider_layout_2_text"
+
+        />
+    <TextView
+        android:id="@+id/slider_layout_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toTopOf="@id/slider_layout_2_img_little_circle_red1"
+        android:text="@string/slider_layout_2_text"
+        app:layout_constraintTop_toBottomOf="@id/slider_layout_2_guideline"
+        android:textSize="17dp"
+        />
+    <ImageView
+        android:id="@+id/slider_layout_2_img_little_circle_red1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/red_dot_slider"
+        android:paddingEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slider_layout_2_text"
+        app:layout_constraintStart_toStartOf="@id/slider_layout_2_text"
+        />
+    <ImageView
+        android:id="@+id/slider_layout_2_img_little_circle_red2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/red_dot_slider"
+        app:layout_constraintBottom_toBottomOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintTop_toTopOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintStart_toEndOf="@id/slider_layout_2_img_little_circle_red1"/>
+    <ImageView
+        android:id="@+id/slider_layout_2_img_little_circle_orange2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/orange_dot_slider"
+        app:layout_constraintBottom_toBottomOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintTop_toTopOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintStart_toEndOf="@id/slider_layout_2_img_little_circle_red2"/>
+    <ImageView
+        android:id="@+id/slider_layout_2_img_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/ic_next"
+        app:layout_constraintTop_toTopOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintBottom_toBottomOf="@id/slider_layout_2_img_little_circle_red1"
+        app:layout_constraintEnd_toEndOf="@id/slider_layout_2_text"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

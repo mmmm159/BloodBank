@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بنك الدم</string>
+    <string name="did_you_forget_password">هل نسيت كلمة السر؟</string>
+    <string name="remember_me_login_fragment">تذكرني</string>
+    <string name="register_fragment_edt_txt_name">الاسم</string>
+    <string name="register_fragment_create_new_account">تسجيل حساب جديد</string>
+    <string name="register_fragment_edt_txt_birth_date">تاريخ الميلاد</string>
+    <string name="register_fragment_edt_txt_confirm_password">تأكيد كلمة المرور</string>
+    <string name="register_fragment_edt_txt_email">البريد الالكتروني</string>
+    <string name="register_fragment_edt_txt_last_donation_date">اخر تاريخ للتبرع</string>
+    <string name="register_fragment_edt_txt_password">كلمة المرور</string>
+    <string name="register_fragment_edt_txt_phone">الهاتف</string>
+    <string name="register_fragment_register_btn">تسجيل</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/more_fragment_txt_view_more"
+        style="@style/txt_view_top_fragment"
+
+        android:text="@string/more_fragment_txt_view_more"
+        />
+    
+    <TextView
+        android:id="@+id/more_fragment_txt_view_favourites"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/ic_favorite_red_24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_favourites"
+        android:drawablePadding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/more_fragment_txt_view_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/register_fragment_icon_mail"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_contact_us"
+        android:drawablePadding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/more_fragment_txt_view_about"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/ic_lightbulb_outline_black_24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_about"
+        android:drawablePadding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/more_fragment_txt_view_rate_app"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/ic_star_black_24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_rate_app"
+        android:drawablePadding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/more_fragment_txt_view_notification_settings"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/ic_settings_black_24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_notification_settings"
+        android:drawablePadding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/more_fragment_txt_view_logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@color/red"
+
+        android:drawableStart="@drawable/ic_exit_to_app_black_24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/more_fragment_txt_view_logout"
+        android:drawablePadding="10dp"/>
+
+
+
+</LinearLayout>

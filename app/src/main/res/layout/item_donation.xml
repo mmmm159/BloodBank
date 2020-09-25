@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="20dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:dragEdge="left"
+        app:mode="same_level">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/item_donation_img_btn_call"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_call_circle"/>
+
+            <ImageButton
+                android:id="@+id/item_donation_img_btn_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="10dp"
+
+                android:background="@drawable/item_donation_background_shadow"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_weight="1"
+
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_donation_txt_view_patient_name"
+                        android:textColor="@color/perple"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/item_donation_txt_view_patient_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="mohamed mosaad"
+                        android:textColor="@color/perple"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="105dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_donation_txt_view_hospital"
+
+                        android:textColor="@color/perple"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/item_donation_txt_view_hospital"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="2dp"
+                        android:text="mansouraaaaa"
+                        android:textColor="@color/perple"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="0dp"
+                        android:text="@string/item_donation_txt_view_city"
+                        android:textColor="@color/perple"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/item_donation_txt_view_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="tanta"
+                        android:textColor="@color/perple"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/item_donation_txt_view_circle_blood"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+
+                android:text="A+"
+                android:textSize="33sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/lightGrey"
+
+                android:background="@drawable/item_donation_blood_circle_background"/>
+
+
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/swipe_reveal"
+
+        />
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+

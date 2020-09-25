@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/cairo_regular</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+
+    </style>
+
+    <style name="login_fragment_edt_txt">
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:background">@drawable/user_cycle_views_background</item>
+
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/red</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+
+
+    </style>
+
+    <style name="user_cycle_button">
+        <item name="android:background">@drawable/user_cycle_views_background</item>
+        <item name="android:layout_height">@dimen/dim_35dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:layout_marginEnd">120dp</item>
+        <item name="android:layout_marginStart">120dp</item>
+
+    </style>
+
+    <style name="txt_view_top_fragment">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">@dimen/dim_edt_txt_bottom_margin</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/lightGrey</item>
+
+
+    </style>
+
+    <style name="text_user_cycle">
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

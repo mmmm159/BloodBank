@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_activity_navigation_home"
+        android:icon="@drawable/activity_home_icon_home"
+        android:title="@string/home_activity_title_home" />
+
+    <item
+        android:id="@+id/home_activity_navigation_modify_data"
+        android:icon="@drawable/activity_home_icon_account"
+        android:title="@string/home_activity_title_modify_data" />
+
+    <item
+        android:id="@+id/home_activity_navigation_notifications"
+        android:icon="@drawable/activity_home_icon_notification"
+        android:title="@string/home_activity_title_notifications"/>
+
+    <item
+        android:id="@+id/home_activity_navigation_more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="@string/home_activity_title_more"/>
+
+</menu>
